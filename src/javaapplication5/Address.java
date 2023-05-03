@@ -10,7 +10,7 @@ public class Address {
         }
 
 	public String getFullAddress() {	
-		return  city + state + zip ; 
+		return  city+ ", " +state+ ", " +zip ; 
 	}
         
 
