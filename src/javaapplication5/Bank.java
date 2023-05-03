@@ -15,7 +15,7 @@ this.pin=pin;
 }
 
 public void setDeposit(double deposit) {
-	
+	this.deposit = deposit;
 	balance = balance + deposit		;// Adding funds to account
 }
 
