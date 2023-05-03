@@ -32,7 +32,7 @@ public class KitchenwareDepartment extends Department {
 	}
 
 	public double getTotalPrice() {
-		return getPrice() +getQuantity();//Total Price of object after multiplying by quantity
+        return getPrice() *getQuantity();//Total Price of object after multiplying by quantity
 	}
 
 	@Override
